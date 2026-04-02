@@ -7,13 +7,14 @@ world:
   interval: 1.0
   seed: 0
   dir: data/
+  gui: False
 
   saveReplay: True
   report_log_mode: normal # cbengine
   report_log_rate: 10
 
   no_warning: True
-  gui: False
+
 
   rlTrafficLight: True
 

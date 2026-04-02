@@ -1,0 +1,18 @@
+<configuration>
+  <input>
+    <net-file value="city_006.net.xml"/>
+    <route-files value="vehicle_types.rou.xml,
+
+                        morning_peak.rou.xml,
+                        bus.rou.xml"/>
+    <additional-files value="buildings.poly.xml, bus_stop.add.xml, vtype.add.xml"/>
+  </input>
+  <time>
+    <begin value="25200"/>
+    <end value="32400"/>
+    <time-to-teleport value="300"/>
+  </time>
+  <processing>
+        <ignore-junction-blocker value="60"/>
+  </processing>
+</configuration>
